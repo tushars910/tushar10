@@ -1,4 +1,5 @@
-FROM ubuntu:12.04
-MAINTAINER Charles Border
-RUN apt-get update && apt-get install -y 
-CMD ["bin/bash"]
+FROM ubuntu:latest
+MAINTAINER Prof. Border
+RUN apt-get update
+RUN apt-get install -y 
+WORKDIR /home

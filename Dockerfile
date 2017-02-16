@@ -1,5 +1,5 @@
 FROM ubuntu:latest
 MAINTAINER Prof. Border
 RUN apt-get update
-RUN apt-get install -y 
+#RUN apt-ge 
 WORKDIR /home

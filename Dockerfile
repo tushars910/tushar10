@@ -15,6 +15,6 @@ RUN \
 # Define working directory.
 WORKDIR /root
 
-# Define default command.
+# Define default 
 CMD ["bash"]
 

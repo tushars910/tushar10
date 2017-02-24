@@ -1,5 +1,3 @@
-
-
 FROM ubuntu:14.04
 
 # Install.
@@ -9,14 +7,8 @@ RUN \
   apt-get -y upgrade && \
   apt-get install -y build-essential && \
   apt-get install -y software-properties-common && \
-  apt-get install -y byobu curl git htop man unzip vim wget && \
   apt-get install -y git && \
-  rm -rf /var/lib/apt/lists/*
-
-# Add files.
-ADD root/.bashrc /root/.bashrc
-ADD root/.gitconfig /root/.gitconfig
-ADD root/.scripts /root/.scripts
+  git clone https://github.com/tushars910/tushar10.git
 
 # Set environment variables.
 ENV HOME /root

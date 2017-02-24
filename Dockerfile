@@ -6,7 +6,7 @@ RUN \
   apt-get -y upgrade && \
   apt-get install -y git && \
   git clone https://github.com/tushars910/tushar10.git
-  copy https://github.com/tushars910/tushar10.git /root
+  #copy https://github.com/tushars910/tushar10.git /root
 
 #ADD 
 # Set environment variables.

@@ -9,7 +9,7 @@ RUN \
   #copy https://github.com/tushars910/tushar10.git /root
 
 #ADD 
-# Set environment variables.
+# Set environment variable
 #ENV /root
 
 # Define working directory.
